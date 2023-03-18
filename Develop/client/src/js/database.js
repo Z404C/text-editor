@@ -30,7 +30,7 @@ export const getDb = async () => {
   const store = text.objectStore("jate")
   const request = store.getAll()
   const result = await request
-  console.error('getDb not implemented');
+  console.error('getDb not implemented', result);
 }
 
 initdb();
